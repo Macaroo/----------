@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>みなみ歯科クリニック</title>
+  <meta name="description" content="サイトの概要">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css" />
+
+  <!-- original -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <div class="header-body">
+        <h1 class="header-left"><a href="#"><img src="./img/svg/logo.svg" class="logo-normal" alt="logo"><img src="./img/svg/logo-drawer.svg" class="logo-drawer" alt=""></a></h1>
+        <div class="header-right">
+          <nav>
+            <ul class="header-nav">
+              <li class="header-nav-item"><a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <defs>
+                      <style>
+                        .a,
+                        .b {
+                          fill: #393939;
+                        }
+
+                        .a {
+                          opacity: 0;
+                        }
+                      </style>
+                    </defs>
+                    <rect class="a" width="24" height="24" />
+                    <path class="b" d="M20.42,10.18,12.71,2.3a1,1,0,0,0-1.42,0L3.58,10.19A2,2,0,0,0,3,11.62V20a2,2,0,0,0,1.89,2H19.11A2,2,0,0,0,21,20V11.62a2.07,2.07,0,0,0-.58-1.44ZM10,20V14h4v6Zm9,0H16V13a1,1,0,0,0-1-1H9a1,1,0,0,0-1,1v7H5V11.58l7-7.15,7,7.19Z" />
+                  </svg><span>ホーム</span></a></li>
+              <li class="header-nav-item"><a class="-active" href="#about">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <defs>
+                      <style>
+                        .a,
+                        .b {
+                          fill: #393939;
+                        }
+
+                        .a {
+                          opacity: 0;
+                        }
+                      </style>
+                    </defs>
+                    <rect class="a" width="24" height="24" />
+                    <path class="b" d="M5.368,10.232V8.555a.5.5,0,0,1,.5-.5H7.548a.5.5,0,0,1,.5.5v1.677a.5.5,0,0,1-.5.5H5.871A.5.5,0,0,1,5.368,10.232Zm5.871.5h1.677a.5.5,0,0,0,.5-.5V8.555a.5.5,0,0,0-.5-.5H11.238a.5.5,0,0,0-.5.5v1.677A.5.5,0,0,0,11.238,10.735ZM8.051,14.258V12.58a.5.5,0,0,0-.5-.5H5.871a.5.5,0,0,0-.5.5v1.677a.5.5,0,0,0,.5.5H7.548A.5.5,0,0,0,8.051,14.258Zm3.187.5h1.677a.5.5,0,0,0,.5-.5V12.58a.5.5,0,0,0-.5-.5H11.238a.5.5,0,0,0-.5.5v1.677A.5.5,0,0,0,11.238,14.761Zm7.548,5.2v1.51H0v-1.51a.5.5,0,0,1,.5-.5h.818V3.566a.95.95,0,0,1,1.006-.882H6.039V1.006A1.006,1.006,0,0,1,7.045,0h4.7a1.006,1.006,0,0,1,1.006,1.006V2.684h3.711a.95.95,0,0,1,1.006.882V19.458h.818A.5.5,0,0,1,18.787,19.961ZM3.334,19.416H8.051v-2.81a.5.5,0,0,1,.5-.5h1.677a.5.5,0,0,1,.5.5v2.81h4.718V4.7h-2.7V5.7A1.006,1.006,0,0,1,11.742,6.71h-4.7A1.006,1.006,0,0,1,6.039,5.7V4.7h-2.7ZM11.155,2.684h-1.09V1.594a.252.252,0,0,0-.252-.252H8.974a.252.252,0,0,0-.252.252v1.09H7.632a.252.252,0,0,0-.252.252v.839a.252.252,0,0,0,.252.252h1.09v1.09a.252.252,0,0,0,.252.252h.839a.252.252,0,0,0,.252-.252V4.026h1.09a.252.252,0,0,0,.252-.252V2.935A.252.252,0,0,0,11.155,2.684Z" transform="translate(3 1)" />
+                  </svg>
+                  <span>当院について</span></a>
+              </li>
+              <li class="header-nav-item">
+                <a href="#medical">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <defs>
+                      <style>
+                        .a,
+                        .b {
+                          fill: #393939;
+                        }
+
+                        .a {
+                          opacity: 0;
+                        }
+                      </style>
+                    </defs>
+                    <rect class="a" width="24" height="24" />
+                    <path class="b" d="M15,16H9a1,1,0,0,0,0,2h6a1,1,0,0,0,0-2Z" />
+                    <path class="b" d="M9,14h3a1,1,0,0,0,0-2H9a1,1,0,0,0,0,2Z" />
+                    <path class="b" d="M19.74,8.33l-5.44-6A1,1,0,0,0,13.56,2h-7A2.53,2.53,0,0,0,4,4.5v15A2.53,2.53,0,0,0,6.56,22H17.44A2.53,2.53,0,0,0,20,19.5V9a1,1,0,0,0-.26-.67ZM14,5l2.74,3h-2A.79.79,0,0,1,14,7.15Zm3.44,15H6.56A.53.53,0,0,1,6,19.5V4.5A.53.53,0,0,1,6.56,4H12V7.15A2.79,2.79,0,0,0,14.71,10H18v9.5a.53.53,0,0,1-.56.5Z" />
+                  </svg>
+                  <span>診療案内</span></a>
+              </li>
+              <li class="header-nav-item">
+                <a href="#staff">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <defs>
+                      <style>
+                        .a,
+                        .b {
+                          fill: #393939;
+                        }
+
+                        .a {
+                          opacity: 0;
+                        }
+                      </style>
+                    </defs>
+                    <rect class="a" width="24" height="24" />
+                    <path class="b" d="M9,11A4,4,0,1,0,5,7a4,4,0,0,0,4,4ZM9,5A2,2,0,1,1,7,7,2,2,0,0,1,9,5Z" />
+                    <path class="b" d="M17,13a3,3,0,1,0-3-3A3,3,0,0,0,17,13Zm0-4a1,1,0,1,1-1,1A1,1,0,0,1,17,9Z" />
+                    <path class="b" d="M17,14a5,5,0,0,0-3.06,1.05A7,7,0,0,0,2,20a1,1,0,1,0,2,0,5,5,0,0,1,10,0,1,1,0,0,0,2,0,6.9,6.9,0,0,0-.86-3.35A3,3,0,0,1,20,19a1,1,0,1,0,2,0A5,5,0,0,0,17,14Z" />
+                  </svg>
+                  <span>スタッフ紹介</span></a>
+              </li>
+              <li class="header-nav-item">
+                <a href="#blog">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <defs>
+                      <style>
+                        .a,
+                        .b {
+                          fill: #393939;
+                        }
+
+                        .a {
+                          opacity: 0;
+                        }
+                      </style>
+                    </defs>
+                    <rect class="a" width="24" height="24" />
+                    <path class="b" d="M19.4,7.34,16.66,4.6A2,2,0,0,0,14,4.53l-9,9a2,2,0,0,0-.57,1.21L4,18.91A1,1,0,0,0,5,20h.09l4.17-.38a2,2,0,0,0,1.21-.57l9-9a1.92,1.92,0,0,0-.07-2.71ZM9.08,17.62l-3,.28.27-3L12,9.32l2.7,2.7ZM16,10.68,13.32,8l1.95-2L18,8.73Z" />
+                  </svg>
+                  <span>スタッフブログ</span></a>
+              </li>
+              <li class="header-nav-item">
+                <a href="#contact">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <defs>
+                      <style>
+                        .a,
+                        .b {
+                          fill: #393939;
+                        }
+
+                        .a {
+                          opacity: 0;
+                        }
+                      </style>
+                    </defs>
+                    <rect class="a" width="24" height="24" />
+                    <path class="b" d="M19,4H5A3,3,0,0,0,2,7V17a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V7a3,3,0,0,0-3-3Zm-.67,2L12,10.75,5.67,6ZM19,18H5a1,1,0,0,1-1-1V7.25l7.4,5.55a1,1,0,0,0,1.2,0L20,7.25V17A1,1,0,0,1,19,18Z" />
+                  </svg>
+                  <span>お問い合わせ</span></a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header-info">
+            <p class="header-address">〒166-0001 東京都杉並区阿佐谷北7-3-1</p>
+            <p class="header-tel tel-num">03-1234-5678</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- /.header -->
+
+  <div class="drawer-icon">
+    <div class="drawer-icon-bars">
+      <div class="drawer-icon-bar1"></div>
+      <div class="drawer-icon-bar2"></div>
+      <div class="drawer-icon-bar3"></div>
+    </div>
+  </div>
+  <div class="drawer-content">
+    <nav class="drawer-nav-wrapper">
+      <ul class="drawer-nav">
+              <li class="drawer-nav-item"><a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <defs>
+                      <style>
+                        .a,
+                        .b {
+                          fill: #393939;
+                        }
+
+                        .a {
+                          opacity: 0;
+                        }
+                      </style>
+                    </defs>
+                    <rect class="a" width="24" height="24" />
+                    <path class="b" d="M20.42,10.18,12.71,2.3a1,1,0,0,0-1.42,0L3.58,10.19A2,2,0,0,0,3,11.62V20a2,2,0,0,0,1.89,2H19.11A2,2,0,0,0,21,20V11.62a2.07,2.07,0,0,0-.58-1.44ZM10,20V14h4v6Zm9,0H16V13a1,1,0,0,0-1-1H9a1,1,0,0,0-1,1v7H5V11.58l7-7.15,7,7.19Z" />
+                  </svg><span>ホーム</span></a></li>
+              <li class="drawer-nav-item"><a href="#about">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <defs>
+                      <style>
+                        .a,
+                        .b {
+                          fill: #393939;
+                        }
+
+                        .a {
+                          opacity: 0;
+                        }
+                      </style>
+                    </defs>
+                    <rect class="a" width="24" height="24" />
+                    <path class="b" d="M5.368,10.232V8.555a.5.5,0,0,1,.5-.5H7.548a.5.5,0,0,1,.5.5v1.677a.5.5,0,0,1-.5.5H5.871A.5.5,0,0,1,5.368,10.232Zm5.871.5h1.677a.5.5,0,0,0,.5-.5V8.555a.5.5,0,0,0-.5-.5H11.238a.5.5,0,0,0-.5.5v1.677A.5.5,0,0,0,11.238,10.735ZM8.051,14.258V12.58a.5.5,0,0,0-.5-.5H5.871a.5.5,0,0,0-.5.5v1.677a.5.5,0,0,0,.5.5H7.548A.5.5,0,0,0,8.051,14.258Zm3.187.5h1.677a.5.5,0,0,0,.5-.5V12.58a.5.5,0,0,0-.5-.5H11.238a.5.5,0,0,0-.5.5v1.677A.5.5,0,0,0,11.238,14.761Zm7.548,5.2v1.51H0v-1.51a.5.5,0,0,1,.5-.5h.818V3.566a.95.95,0,0,1,1.006-.882H6.039V1.006A1.006,1.006,0,0,1,7.045,0h4.7a1.006,1.006,0,0,1,1.006,1.006V2.684h3.711a.95.95,0,0,1,1.006.882V19.458h.818A.5.5,0,0,1,18.787,19.961ZM3.334,19.416H8.051v-2.81a.5.5,0,0,1,.5-.5h1.677a.5.5,0,0,1,.5.5v2.81h4.718V4.7h-2.7V5.7A1.006,1.006,0,0,1,11.742,6.71h-4.7A1.006,1.006,0,0,1,6.039,5.7V4.7h-2.7ZM11.155,2.684h-1.09V1.594a.252.252,0,0,0-.252-.252H8.974a.252.252,0,0,0-.252.252v1.09H7.632a.252.252,0,0,0-.252.252v.839a.252.252,0,0,0,.252.252h1.09v1.09a.252.252,0,0,0,.252.252h.839a.252.252,0,0,0,.252-.252V4.026h1.09a.252.252,0,0,0,.252-.252V2.935A.252.252,0,0,0,11.155,2.684Z" transform="translate(3 1)" />
+                  </svg>
+                  <span>当院について</span></a>
+              </li>
+              <li class="drawer-nav-item">
+                <a href="#medical">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <defs>
+                      <style>
+                        .a,
+                        .b {
+                          fill: #393939;
+                        }
+
+                        .a {
+                          opacity: 0;
+                        }
+                      </style>
+                    </defs>
+                    <rect class="a" width="24" height="24" />
+                    <path class="b" d="M15,16H9a1,1,0,0,0,0,2h6a1,1,0,0,0,0-2Z" />
+                    <path class="b" d="M9,14h3a1,1,0,0,0,0-2H9a1,1,0,0,0,0,2Z" />
+                    <path class="b" d="M19.74,8.33l-5.44-6A1,1,0,0,0,13.56,2h-7A2.53,2.53,0,0,0,4,4.5v15A2.53,2.53,0,0,0,6.56,22H17.44A2.53,2.53,0,0,0,20,19.5V9a1,1,0,0,0-.26-.67ZM14,5l2.74,3h-2A.79.79,0,0,1,14,7.15Zm3.44,15H6.56A.53.53,0,0,1,6,19.5V4.5A.53.53,0,0,1,6.56,4H12V7.15A2.79,2.79,0,0,0,14.71,10H18v9.5a.53.53,0,0,1-.56.5Z" />
+                  </svg>
+                  <span>診療案内</span></a>
+              </li>
+              <li class="drawer-nav-item">
+                <a href="#staff">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <defs>
+                      <style>
+                        .a,
+                        .b {
+                          fill: #393939;
+                        }
+
+                        .a {
+                          opacity: 0;
+                        }
+                      </style>
+                    </defs>
+                    <rect class="a" width="24" height="24" />
+                    <path class="b" d="M9,11A4,4,0,1,0,5,7a4,4,0,0,0,4,4ZM9,5A2,2,0,1,1,7,7,2,2,0,0,1,9,5Z" />
+                    <path class="b" d="M17,13a3,3,0,1,0-3-3A3,3,0,0,0,17,13Zm0-4a1,1,0,1,1-1,1A1,1,0,0,1,17,9Z" />
+                    <path class="b" d="M17,14a5,5,0,0,0-3.06,1.05A7,7,0,0,0,2,20a1,1,0,1,0,2,0,5,5,0,0,1,10,0,1,1,0,0,0,2,0,6.9,6.9,0,0,0-.86-3.35A3,3,0,0,1,20,19a1,1,0,1,0,2,0A5,5,0,0,0,17,14Z" />
+                  </svg>
+                  <span>スタッフ紹介</span></a>
+              </li>
+              <li class="drawer-nav-item">
+                <a href="#blog">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <defs>
+                      <style>
+                        .a,
+                        .b {
+                          fill: #393939;
+                        }
+
+                        .a {
+                          opacity: 0;
+                        }
+                      </style>
+                    </defs>
+                    <rect class="a" width="24" height="24" />
+                    <path class="b" d="M19.4,7.34,16.66,4.6A2,2,0,0,0,14,4.53l-9,9a2,2,0,0,0-.57,1.21L4,18.91A1,1,0,0,0,5,20h.09l4.17-.38a2,2,0,0,0,1.21-.57l9-9a1.92,1.92,0,0,0-.07-2.71ZM9.08,17.62l-3,.28.27-3L12,9.32l2.7,2.7ZM16,10.68,13.32,8l1.95-2L18,8.73Z" />
+                  </svg>
+                  <span>スタッフブログ</span></a>
+              </li>
+              <li class="drawer-nav-item">
+                <a href="#contact">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <defs>
+                      <style>
+                        .a,
+                        .b {
+                          fill: #393939;
+                        }
+
+                        .a {
+                          opacity: 0;
+                        }
+                      </style>
+                    </defs>
+                    <rect class="a" width="24" height="24" />
+                    <path class="b" d="M19,4H5A3,3,0,0,0,2,7V17a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V7a3,3,0,0,0-3-3Zm-.67,2L12,10.75,5.67,6ZM19,18H5a1,1,0,0,1-1-1V7.25l7.4,5.55a1,1,0,0,0,1.2,0L20,7.25V17A1,1,0,0,1,19,18Z" />
+                  </svg>
+                  <span>お問い合わせ</span></a>
+              </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="drawer-background"></div>
+  <!-- drawer -->
+
+  <div class="section-top section-top-about">
+    <div class="section-top-text">
+      <div class="section-top-title">当院について</div>
+      <div class="section-top-en">ABOUT OUR CLINIC</div>
+    </div>
+    <div class="section-bread">
+
+    </div>
+  </div>
+
+  <div class="about-content1">
+    <div class="about-content1-title">
+      <div class="util-title">ポリシーと特徴</div>
+    </div>
+    <div class="about-top">
+      <div class="about-bg"></div>
+      <div class="about-concept">
+        <div class="about-concept-body">
+          <div class="about-concept-headline">POLICY</div>
+          <div class="about-concept-title">コミュニケーションから始まる最適な医療提供</div>
+          <div class="about-concept-text">当院ではまず患者様から詳しくお話を伺います。<br>難しい言葉は使わず、実際に感じている小さな違和感からあらゆる可能性を考え、最適な治療方法をご提案いたします。<br><br>「どこよりも本音で話せる歯医者さん」を目指し、スタッフ一同、「人間力の向上」にも勤めております。。</div>
+        </div>
+        <div class="about-concept-img"><img src="./img/feature_1@2x.jpg" alt="concept"></div>
+      </div>
+    </div>
+    <div class="about-content2">
+      <div class="about-concept-body">
+        <div class="about-concept-headline">FEATURE</div>
+        <div class="about-concept-title">「医療技術の追求」と<br>「通いやすさ」</div>
+        <div class="about-concept-text">歯の治療において、小さな違和感は大きなストレスにつながります。私たちは常に快適な歯科医療技術の研究を行っております。 また、「通いやすさ」も医院選びの重要なポイントと考え、2019年のリニューアルを期に更に駅の近くへ場所を移しました。<br><br>朝から夜までお仕事をされている方のために診療時間を見直し、平日でもご利用いただけるようにいたしました。</div>
+      </div>
+      <div class="about-concept-img about-concept2-img"><img src="./img/feature_2@2x.jpg" alt="concept"></div>
+    </div>
+
+    <div class="about-content3">
+      <div class="util-title">院内の様子</div>
+      <div class="outlook-items">
+        <div class="outlook-item">
+          <img src="./img/about_0@2x.jpg" alt="">
+        </div>
+        <div class="outlook-item">
+          <img src="./img/about_-1@2x.jpg" alt="">
+        </div>
+        <div class="outlook-item">
+          <img src="./img/about_-2@2x.jpg" alt="">
+        </div>
+        <div class="outlook-item">
+          <img src="./img/about_-3@2x.jpg" alt="">
+        </div>
+        <div class="outlook-item">
+          <img src="./img/about_-4@2x.jpg" alt="">
+        </div>
+        <div class="outlook-item">
+          <img src="./img/about_-5@2x.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.about -->
+
+
+  <div class="info">
+    <div class="info-top"></div>
+    <div class="info-body">
+      <div class="info-box">
+        <div class="info-left">
+          <div class="info-name"><img src="./img/svg/logo.svg" alt="logo"></div>
+          <div class="info-address">〒166-0001<span>東京都杉並区阿佐谷北7-3-1</span></div>
+          <div class="info-tel tel-num">03-1234-5678</div>
+          <div class="tel-time">(年中無休 AM9:00〜PM22:00)</div>
+          <div class="info-btn-wrapper">
+            <a href="#" class="info-btn-reserve">WEB予約</a>
+            <a href="#" class="info-btn-contact">お問い合わせ</a>
+          </div>
+          <div class="info-timesheet timesheet">
+            <img src="./img/png/medicalTimeSheet@2x.png" alt="timesheet">
+          </div>
+        </div>
+        <div class="footer-right">
+          <div class="map-wrapper">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.8654290572053!2d139.63392904988905!3d35.70492903618394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f2767eb9e92b%3A0xc2d0573363890acc!2z6Zi_5L2Q44O26LC36aeF!5e0!3m2!1sja!2sjp!4v1630565074330!5m2!1sja!2sjp" width="385" height="385" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.info -->
+  <footer class="footer">
+    <nav>
+      <ul class="footer-nav">
+        <li class="footer-nav-item">
+          <a href="#" class="footer-nav-top">TOP</a>
+        </li>
+        <li class="footer-nav-item">
+          <p class="footer-nav--top">当院について</p>
+          <a href="#" class="footer-nav-link">ポリシーと特徴</a>
+          <a href="#" class="footer-nav-link">当院の様子</a>
+        </li>
+        <li class="footer-nav-item">
+          <p class="footer-nav-top">スタッフ紹介</p>
+          <a href="#" class="footer-nav-link">院長のあいさつ</a>
+          <a href="" class="footer-nav-link">スタッフ</a>
+          <a href="" class="footer-nav-link">スタッフブログ</a>
+        </li>
+        <li class="footer-nav-item">
+          <p class="footer-nav-top">診療内容</p>
+          <p class="footer-nav-link-wrapper">
+            <a href="" class="footer-nav-link">一般歯科</a>
+            <a href="" class="footer-nav-link">矯正歯科</a>
+            <a href="" class="footer-nav-link">小児歯科</a>
+            <a href="" class="footer-nav-link">ホワイトニング</a>
+            <a href="" class="footer-nav-link">予防歯科</a>
+            <a href="" class="footer-nav-link">口腔外科</a>
+            <a href="" class="footer-nav-link">入れ歯</a>
+            <a href="" class="footer-nav-link">レーザー治療</a>
+          </p>
+        </li>
+        <li class="footer-nav-item">
+          <p class="footer-nav-top">お問い合わせ</p>
+          <a href="#" class="footer-nav-link">お問い合わせフォーム</a>
+          <a href="" class="footer-nav-link">WEB予約</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="footer-bottom">
+      <p class="footer-copyright">&copy;2020-2021 みなみ歯科クリニック</p>
+    </div>
+
+    <div class="footer-fixed">
+      <div class="footer-tel">
+        <div class="footer-tel-num">03-1234-5678</div>
+        <div class="footer-tel-time">(年中無休 AM9:00〜PM22:00)</div>
+      </div>
+      <a href="#" class="footer-reserve">
+        <img src="./img/svg/icon-pc-footer.svg" alt="">
+        <p>WEB予約<br><span>はこちら</span></p>
+      </a>
+    </div>
+  </footer>
+  <!-- /.footer -->
+  <div class="to-top"><a href="#"><img src="./img/svg/totop.svg" alt="to-top"></a></div>
+
+  <div class="btn-fixed"><a href="#">
+      <img src="./img/svg/icon-pc-bg.svg" alt="">
+      <p>WEB予約<br>はこちら</p>
+    </a></div>
+
+
+
+  <!-- swiper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script>
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <!-- original -->
+  <script src="./js/script.js"></script>
+</body>
+</html>
